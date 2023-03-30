@@ -16,4 +16,6 @@ jobs:
 
           cat metrics.txt >> report.md
           echo "![](./plot.png)" >> report.md
+          echo "CML REPORT"
           cml comment create report.md
+          
